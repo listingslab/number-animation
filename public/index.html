@@ -1,40 +1,55 @@
 <!doctype html>
 <html lang="en">
+<!--
+        ____      _   _   _   _     _____     ____   _       _   _    ____
+      U|  _"\ uU |"|u| | | \ |"|   |_ " _| U /"___| |"|   U |"|u| |U | __")u
+      \| |_) |/ \| |\| |<|  \| |>    | |   \| | u U | | u  \| |\| | \|  _ \/
+       |  __/    | |_| |U| |\  |u   /| |\   | |/__ \| |/__  | |_| |  | |_) |
+       |_|      <<\___/  |_| \_|   u |_|U    \____| |_____|<<\___/   |____/
+       ||>>_   (__) )(   ||   \\,-._// \\_  _// \\  //  \\(__) )(   _|| \\_
+      (__)__)      (__)  (_")  (_/(__) (__)(__)(__)(_")("_)   (__) (__) (__)
+
+-->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
     <title>Number Animation</title>
+
+    <link href="//fonts.googleapis.com/css?family=Montserrat|Muli" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+
+    <div class="num-ani-container odometer">
+      <div class="pad">
+        <h1>Here is an odometer, running outside of react</h1>
+        <div class="odometer">
+          8888
+        </div>
+      </div>
+    </div>
+
+    <div class="num-ani-container lorem">
+      <div class="pad">
+        <h3>Lorem ipsum dolor sit amet,</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget mi viverra sem aliquam laoreet. Vestibulum hendrerit ipsum mollis eleifend vestibulum. Aliquam est mauris, condimentum ac vulputate a, accumsan quis libero. Vivamus luctus ligula ac nisl tincidunt, vitae faucibus dolor pellentesque. Pellentesque luctus ornare euismod. Phasellus ultrices fringilla vehicula. Cras placerat iaculis nisi, ac aliquet neque ultricies et. Cras consequat eget justo sit amet maximus. Duis id ornare dui. Suspendisse sed sapien lorem. Nullam sit amet ultricies erat. Vestibulum aliquet massa faucibus, sagittis purus non, finibus nisl. Nunc lobortis arcu felis, eget pulvinar dolor congue nec. Quisque vel aliquam nibh. Nulla ut eleifend ipsum.</p>
+      </div>
+    </div>
+
+    <div class="num-ani-container ipsum">
+      <div class="pad">
+        <h3>Curabitur a nisl nulla</h3>
+        <p>Curabitur a nisl nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam interdum malesuada lacinia. Maecenas varius, augue eu porttitor tempus, arcu ex ultrices arcu, sit amet consectetur risus turpis at elit. Praesent efficitur sed ipsum et rutrum. Mauris dictum, lacus id ultrices ornare, purus urna porttitor velit, eu interdum diam dolor in ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc et interdum odio. Fusce porta vitae dolor sed sodales. Curabitur vel purus interdum, luctus neque rhoncus, congue elit. Donec dictum scelerisque libero.</p>
+        </div>
+      </div>
   </body>
 </html>
