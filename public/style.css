@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
 }
 
+#root {
+  border: 5px solid red;
+  border-radius: 10px;
+  background: white;
+  width: 800px;
+  margin: auto;
+}
+
 .num-ani-container {
   border-radius: 10px;
   background: white;
