@@ -1,0 +1,24 @@
+
+/* namespace='num-ani' */
+
+#root {
+  border: 1px solid gold;
+  border-radius: 10px;
+  background: white;
+}
+
+.num-ani-container {
+  margin-top: 10px;
+  border: 1px solid gold;
+  border-radius: 3px;
+  background: white;
+}
+
+.num-ani-pad{
+  margin: 10px;
+}
+
+.num-ani-massive {
+  font-size: 40px;
+  font-weight: bold;
+}
