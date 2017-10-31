@@ -1,6 +1,15 @@
 
 /* namespace='num-ani' */
-.num-ani-{
+body, html{
+  height: 100%;
+  background: #eee;
 }
-#root {
+#listingslab {
+  width: 800px;
+  margin:auto;
+  padding: 10px;
+}
+
+.odometer {
+  font-size: 30px;
 }
