@@ -1,0 +1,44 @@
+
+/* namespace='num-ani' */
+
+body {
+  // background: red;
+  font-family: 'Muli';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+#root {
+  border: 5px solid red;
+  border-radius: 10px;
+  background: white;
+  width: 800px;
+  margin: auto;
+}
+
+.num-ani-container {
+  border-radius: 10px;
+  background: white;
+  width: 800px;
+  margin: auto;
+}
+
+.pad{
+  margin: 50px;
+}
+
+.lorem {
+  border: 1px solid blue;
+  width: 45%;
+  float: left;
+}
+
+
+.ipsum {
+  border: 1px solid green;
+  width: 45%;
+  float: right;
+
+}
